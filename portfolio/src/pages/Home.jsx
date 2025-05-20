@@ -1,6 +1,6 @@
 import { ThemeToggle } from "../components/ThemeToggle"
 import { StarBackground } from "@/components/StarBackground"
-
+import { MatrixRain } from "../components/MatrixRain"
 
 export const Home = () => {
     return (
@@ -8,7 +8,8 @@ export const Home = () => {
         {/*Theme Toggle*/}
         <ThemeToggle/>
         {/* Background Effects */}  
-        <StarBackground/>
+        {/*<StarBackground/>*/}
+        < MatrixRain/>
         {/* Navbar */}
 
         {/*main content*/}
